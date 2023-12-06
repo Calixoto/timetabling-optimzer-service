@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="Configura&amp;#231;&amp;#227;o1" category="opl">
+            			
+            <ref name="TimeTabling.mod" type="model">
+			</ref>
+            			
+            <ref name="TimeTabling.ops" type="setting">
+			</ref>
+            			
+            <ref name="TimeTabling.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Toy" category="opl">
+            			
+            <ref name="TimeTabling.mod" type="model">
+			</ref>
+            			
+            <ref name="TimeTabling_toy.dat" type="data">
+			</ref>
+            			
+            <ref name="TimeTabling.ops" type="setting">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>
